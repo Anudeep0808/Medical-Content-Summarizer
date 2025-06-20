@@ -1,28 +1,15 @@
-# Medical-Content-Summarizer
-This is a multi-source medical content summarizer built with Streamlit, powered by OpenAI models and LangChain. It allows users to generate concise summaries of medical YouTube videos and trusted health websites like .gov, .edu, and nih.gov domains.
+# 🩺 Medical Content Summarizer – Powered by OpenAI & LangChain
 
-<br>
-🚀 Features
-🔗 Summarize content from YouTube videos or official medical websites
+This project is a multi-source **medical content summarizer** that uses **LangChain**, **OpenAI's LLMs**, and **Streamlit** to provide quick and meaningful summaries of YouTube videos and trusted medical websites (.gov, .edu, nih.gov). It enables users to select between OpenAI models like `gpt-3.5-turbo`, `gpt-4`, and `gpt-4o` and configure temperature and token settings.
 
-🧠 Powered by LLMs (gpt-3.5-turbo, gpt-4, gpt-4o via OpenAI)
+---
 
-🎛️ User control: choose model, temperature, and max token limits
+## 🚀 Features
 
-✅ Built-in validation: Only trusted websites accepted
+- 🔗 Summarizes content from **YouTube** videos and **trusted medical websites**
+- 🤖 Supports **OpenAI models**: `gpt-3.5-turbo`, `gpt-4`, and `gpt-4o`
+- 🎛️ User control: select model, temperature, and max tokens from the sidebar
+- ✅ Accepts only reliable domains like `.gov`, `.edu`, and `nih.gov` for web content
+- 🧠 Uses LangChain’s `stuff` summarization chain for simplicity and performance
 
-📄 Concise, focused medical summaries using LangChain's summarization chains
 
-<br>
-🧰 Tech Stack
-OpenAI
-
-LangChain
-
-Streamlit
-
-YouTube Transcript API
-
-LangChain Community URL Loader
-
-<br>
