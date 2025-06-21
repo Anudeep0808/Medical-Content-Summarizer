@@ -12,4 +12,7 @@ This project is a multi-source **medical content summarizer** that uses **LangCh
 - ✅ Accepts only reliable domains like `.gov`, `.edu`, and `nih.gov` for web content
 - 🧠 Uses LangChain’s `stuff` summarization chain for simplicity and performance
 
+---
+🔗 **Live Demo**: [Click here to try the app](https://medical-content-summarizer.streamlit.app/)
+
 
